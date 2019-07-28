@@ -1,0 +1,11 @@
+<title>Form Demo</title>
+<p> {{ name }} </p>
+<form action="" method="post">
+            {{ form.csrf }}
+<div class="input text">
+                {{ form.name.label }} {{ form.name }}</div>
+<div class="input submit">
+                <input type="submit" value="Отправить"></div
+<p><input type="radio" name="drink" value="rad1"> буквы > цифры <Br>
+<input type="radio" name="drink" value="rad2"> цифры > буквы</p>
+</form>
